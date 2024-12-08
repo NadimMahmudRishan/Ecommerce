@@ -21,7 +21,7 @@ const Services = () => {
           data-aos-delay="100"
           className="flex flex-col justify-center items-center gap-2 "
         >
-          <img src={shipping} alt="shipping" />
+          <img className="lg:w-72 w-56" src={shipping} alt="shipping" />
           <h1 className="text-xl text-black font-semibold ">
             Worldwide Shipping
           </h1>
@@ -35,7 +35,7 @@ const Services = () => {
           data-aos-delay="100"
           className="flex flex-col justify-center items-center gap-2 "
         >
-          <img src={payment} alt="payment" />
+          <img className="lg:w-72 w-56" src={payment} alt="payment" />
           <h1 className="text-xl text-black font-semibold ">
             100% secure payment
           </h1>
@@ -49,7 +49,7 @@ const Services = () => {
           data-aos-delay="100"
           className="flex flex-col justify-center items-center gap-2 "
         >
-          <img src={refund} alt="refund" />
+          <img className="lg:w-72 w-56" src={refund} alt="refund" />
           <h1 className="text-xl text-black font-semibold ">
             Refund available
           </h1>
@@ -63,7 +63,7 @@ const Services = () => {
           data-aos-delay="100"
           className="flex flex-col justify-center items-center gap-2 "
         >
-          <img src={gift} alt="gift" />
+          <img className="lg:w-72 w-56" src={gift} alt="gift" />
           <h1 className="text-xl text-black font-semibold ">Wine Gift</h1>
           <p className="text-[17px] text-gray-500">
             Wine gifts for special occasions.
