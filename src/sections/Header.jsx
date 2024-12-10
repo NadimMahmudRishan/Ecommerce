@@ -119,8 +119,8 @@ const Header = () => {
             )}
           </div>
         </div>
-        <div className={`${isMenuOpen ? 'flex ' : 'hidden'} w-full h-fit bg-themePurple p-4 absolute top-[80px] left-0`} onClick={closeMenu}>
-            <ul>
+        <div className={`${isMenuOpen ? 'flex ' : 'hidden'} rounded-md w-fit h-fit bg-themePurple p-4 absolute top-[80px] right-0`} onClick={closeMenu}>
+            <ul className="flex flex-col">
               {
                 navItems.map(({link,path})=>(
                   <Link key={path} className="text-white uppercase font-semibold cursor-pointer px-1 py-3 rounded-lg hover:bg-themeYellow hover:text-black w-full text-center" to={path} spy={true} offset={-100} smooth={true}>{link}</Link>
