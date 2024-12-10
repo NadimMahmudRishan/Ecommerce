@@ -17,7 +17,7 @@ const Insta = () => {
      AOS.refresh();
    }, []);
   return (
-    <div className="w-full lg:px-20 px-5 py-[80px] bg-white flex flex-col justify-center items-center gap-4 ">
+    <div id='about' className="w-full lg:px-20 px-5 py-[80px] bg-white flex flex-col justify-center items-center gap-4 ">
       <h1
         data-aos="zoom-in"
         data-aos-delay="100"
