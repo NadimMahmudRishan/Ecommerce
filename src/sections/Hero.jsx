@@ -30,7 +30,7 @@ const Hero = () => {
       id="hero"
       className="w-full flex justify-center items-center lg:h-[700px] h-[600px] "
     >
-      <Slider className="w-full " {...settings}>
+      <Slider className="w-full" {...settings}>
         {/* Slider 1 */}
         <div>
           <div
